@@ -9,15 +9,17 @@ package git;
  *
  * @author dam
  */
-public class Git {
+public class Calculadora {
     
-    public static void main(String[] args) {
-        // TODO code application logic here
-     
-     Calculadora c=new Calculadora (4,2);
-     //System.out.printl(c.suma());
-        
-        
+int n1;
+int n2;
+
+    public Calculadora(int n1, int n2) {
+        this.n1 = n1;
+        this.n2 = n2;
     }
+
+
+    
     
 }
